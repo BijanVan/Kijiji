@@ -9,24 +9,30 @@
 /* Begin PBXBuildFile section */
 		A32FE301298ABD4E0016FA34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32FE300298ABD4E0016FA34 /* AppDelegate.swift */; };
 		A32FE303298ABD4E0016FA34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32FE302298ABD4E0016FA34 /* SceneDelegate.swift */; };
-		A32FE305298ABD4E0016FA34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32FE304298ABD4E0016FA34 /* ViewController.swift */; };
-		A32FE308298ABD4E0016FA34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A32FE306298ABD4E0016FA34 /* Main.storyboard */; };
+		A32FE305298ABD4E0016FA34 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32FE304298ABD4E0016FA34 /* MainViewController.swift */; };
 		A32FE30A298ABD4F0016FA34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A32FE309298ABD4F0016FA34 /* Assets.xcassets */; };
 		A32FE30D298ABD4F0016FA34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A32FE30B298ABD4F0016FA34 /* LaunchScreen.storyboard */; };
 		A32FE318298ABD4F0016FA34 /* KijijiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32FE317298ABD4F0016FA34 /* KijijiTests.swift */; };
-		A32FE322298ABD4F0016FA34 /* KijijiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32FE321298ABD4F0016FA34 /* KijijiUITests.swift */; };
-		A32FE324298ABD4F0016FA34 /* KijijiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32FE323298ABD4F0016FA34 /* KijijiUITestsLaunchTests.swift */; };
+		A32FE333298B4E420016FA34 /* UIView+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32FE332298B4E420016FA34 /* UIView+Preview.swift */; };
+		A32FE335298B4E670016FA34 /* UIViewController+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32FE334298B4E670016FA34 /* UIViewController+Preview.swift */; };
+		A32FE337298B4FAB0016FA34 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32FE336298B4FAB0016FA34 /* HomeViewController.swift */; };
+		A32FE33A298B501E0016FA34 /* MyKijijiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32FE339298B501E0016FA34 /* MyKijijiViewController.swift */; };
+		A32FE33C298B50A90016FA34 /* UIViewController+Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32FE33B298B50A90016FA34 /* UIViewController+Bar.swift */; };
+		A32FE33E298C03130016FA34 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32FE33D298C03130016FA34 /* SearchBarView.swift */; };
+		A3980DD8298CA375001DB587 /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3980DD7298CA375001DB587 /* CategoryItemView.swift */; };
+		A3980DDA298CA9E6001DB587 /* UIFont+Traits.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3980DD9298CA9E6001DB587 /* UIFont+Traits.swift */; };
+		A3980DDC298D5783001DB587 /* UIColor+Kijiji.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3980DDB298D5783001DB587 /* UIColor+Kijiji.swift */; };
+		A3980DDE298D595F001DB587 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3980DDD298D595F001DB587 /* CategoryView.swift */; };
+		A3980DE0298D5A1F001DB587 /* ConstraintConsts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3980DDF298D5A1F001DB587 /* ConstraintConsts.swift */; };
+		A3980DE2298ED4B4001DB587 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3980DE1298ED4B4001DB587 /* TextCell.swift */; };
+		A3980DE4298ED5D0001DB587 /* HomeViewController+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3980DE3298ED5D0001DB587 /* HomeViewController+DataSource.swift */; };
+		A3980DE6298ED6B3001DB587 /* HomeViewController+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3980DE5298ED6B3001DB587 /* HomeViewController+Delegate.swift */; };
+		A3980DE82991BAE8001DB587 /* HomeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3980DE72991BAE8001DB587 /* HomeItem.swift */; };
+		A3980DEA2991BB95001DB587 /* HomeItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3980DE92991BB95001DB587 /* HomeItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		A32FE314298ABD4F0016FA34 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A32FE2F5298ABD4E0016FA34 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A32FE2FC298ABD4E0016FA34;
-			remoteInfo = Kijiji;
-		};
-		A32FE31E298ABD4F0016FA34 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A32FE2F5298ABD4E0016FA34 /* Project object */;
 			proxyType = 1;
@@ -39,16 +45,28 @@
 		A32FE2FD298ABD4E0016FA34 /* Kijiji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kijiji.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A32FE300298ABD4E0016FA34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A32FE302298ABD4E0016FA34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A32FE304298ABD4E0016FA34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A32FE307298ABD4E0016FA34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A32FE304298ABD4E0016FA34 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A32FE309298ABD4F0016FA34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A32FE30C298ABD4F0016FA34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A32FE30E298ABD4F0016FA34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A32FE313298ABD4F0016FA34 /* KijijiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KijijiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A32FE317298ABD4F0016FA34 /* KijijiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KijijiTests.swift; sourceTree = "<group>"; };
-		A32FE31D298ABD4F0016FA34 /* KijijiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KijijiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A32FE321298ABD4F0016FA34 /* KijijiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KijijiUITests.swift; sourceTree = "<group>"; };
-		A32FE323298ABD4F0016FA34 /* KijijiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KijijiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A32FE332298B4E420016FA34 /* UIView+Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Preview.swift"; sourceTree = "<group>"; };
+		A32FE334298B4E670016FA34 /* UIViewController+Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Preview.swift"; sourceTree = "<group>"; };
+		A32FE336298B4FAB0016FA34 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A32FE339298B501E0016FA34 /* MyKijijiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKijijiViewController.swift; sourceTree = "<group>"; };
+		A32FE33B298B50A90016FA34 /* UIViewController+Bar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Bar.swift"; sourceTree = "<group>"; };
+		A32FE33D298C03130016FA34 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		A3980DD7298CA375001DB587 /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
+		A3980DD9298CA9E6001DB587 /* UIFont+Traits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Traits.swift"; sourceTree = "<group>"; };
+		A3980DDB298D5783001DB587 /* UIColor+Kijiji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Kijiji.swift"; sourceTree = "<group>"; };
+		A3980DDD298D595F001DB587 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		A3980DDF298D5A1F001DB587 /* ConstraintConsts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintConsts.swift; sourceTree = "<group>"; };
+		A3980DE1298ED4B4001DB587 /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
+		A3980DE3298ED5D0001DB587 /* HomeViewController+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+DataSource.swift"; sourceTree = "<group>"; };
+		A3980DE5298ED6B3001DB587 /* HomeViewController+Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+Delegate.swift"; sourceTree = "<group>"; };
+		A3980DE72991BAE8001DB587 /* HomeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeItem.swift; sourceTree = "<group>"; };
+		A3980DE92991BB95001DB587 /* HomeItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,13 +84,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A32FE31A298ABD4F0016FA34 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -81,7 +92,6 @@
 			children = (
 				A32FE2FF298ABD4E0016FA34 /* Kijiji */,
 				A32FE316298ABD4F0016FA34 /* KijijiTests */,
-				A32FE320298ABD4F0016FA34 /* KijijiUITests */,
 				A32FE2FE298ABD4E0016FA34 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +101,6 @@
 			children = (
 				A32FE2FD298ABD4E0016FA34 /* Kijiji.app */,
 				A32FE313298ABD4F0016FA34 /* KijijiTests.xctest */,
-				A32FE31D298ABD4F0016FA34 /* KijijiUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,10 +108,12 @@
 		A32FE2FF298ABD4E0016FA34 /* Kijiji */ = {
 			isa = PBXGroup;
 			children = (
+				A32FE338298B4FE80016FA34 /* MyKijijiController */,
+				A32FE331298AC0980016FA34 /* HomeController */,
+				A32FE330298AC0890016FA34 /* Models */,
 				A32FE300298ABD4E0016FA34 /* AppDelegate.swift */,
 				A32FE302298ABD4E0016FA34 /* SceneDelegate.swift */,
-				A32FE304298ABD4E0016FA34 /* ViewController.swift */,
-				A32FE306298ABD4E0016FA34 /* Main.storyboard */,
+				A32FE304298ABD4E0016FA34 /* MainViewController.swift */,
 				A32FE309298ABD4F0016FA34 /* Assets.xcassets */,
 				A32FE30B298ABD4F0016FA34 /* LaunchScreen.storyboard */,
 				A32FE30E298ABD4F0016FA34 /* Info.plist */,
@@ -118,13 +129,49 @@
 			path = KijijiTests;
 			sourceTree = "<group>";
 		};
-		A32FE320298ABD4F0016FA34 /* KijijiUITests */ = {
+		A32FE330298AC0890016FA34 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				A32FE321298ABD4F0016FA34 /* KijijiUITests.swift */,
-				A32FE323298ABD4F0016FA34 /* KijijiUITestsLaunchTests.swift */,
+				A32FE332298B4E420016FA34 /* UIView+Preview.swift */,
+				A32FE334298B4E670016FA34 /* UIViewController+Preview.swift */,
+				A32FE33B298B50A90016FA34 /* UIViewController+Bar.swift */,
+				A3980DD9298CA9E6001DB587 /* UIFont+Traits.swift */,
+				A3980DDB298D5783001DB587 /* UIColor+Kijiji.swift */,
+				A3980DDF298D5A1F001DB587 /* ConstraintConsts.swift */,
+				A3980DE72991BAE8001DB587 /* HomeItem.swift */,
 			);
-			path = KijijiUITests;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A32FE331298AC0980016FA34 /* HomeController */ = {
+			isa = PBXGroup;
+			children = (
+				A3980DD6298CA352001DB587 /* Category */,
+				A32FE336298B4FAB0016FA34 /* HomeViewController.swift */,
+				A3980DE5298ED6B3001DB587 /* HomeViewController+Delegate.swift */,
+				A3980DE3298ED5D0001DB587 /* HomeViewController+DataSource.swift */,
+				A32FE33D298C03130016FA34 /* SearchBarView.swift */,
+				A3980DE1298ED4B4001DB587 /* TextCell.swift */,
+				A3980DE92991BB95001DB587 /* HomeItemCell.swift */,
+			);
+			path = HomeController;
+			sourceTree = "<group>";
+		};
+		A32FE338298B4FE80016FA34 /* MyKijijiController */ = {
+			isa = PBXGroup;
+			children = (
+				A32FE339298B501E0016FA34 /* MyKijijiViewController.swift */,
+			);
+			path = MyKijijiController;
+			sourceTree = "<group>";
+		};
+		A3980DD6298CA352001DB587 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A3980DD7298CA375001DB587 /* CategoryItemView.swift */,
+				A3980DDD298D595F001DB587 /* CategoryView.swift */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +212,6 @@
 			productReference = A32FE313298ABD4F0016FA34 /* KijijiTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A32FE31C298ABD4F0016FA34 /* KijijiUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A32FE32D298ABD4F0016FA34 /* Build configuration list for PBXNativeTarget "KijijiUITests" */;
-			buildPhases = (
-				A32FE319298ABD4F0016FA34 /* Sources */,
-				A32FE31A298ABD4F0016FA34 /* Frameworks */,
-				A32FE31B298ABD4F0016FA34 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A32FE31F298ABD4F0016FA34 /* PBXTargetDependency */,
-			);
-			name = KijijiUITests;
-			productName = KijijiUITests;
-			productReference = A32FE31D298ABD4F0016FA34 /* KijijiUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +226,6 @@
 						CreatedOnToolsVersion = 14.2;
 					};
 					A32FE312298ABD4F0016FA34 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = A32FE2FC298ABD4E0016FA34;
-					};
-					A32FE31C298ABD4F0016FA34 = {
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = A32FE2FC298ABD4E0016FA34;
 					};
@@ -221,7 +246,6 @@
 			targets = (
 				A32FE2FC298ABD4E0016FA34 /* Kijiji */,
 				A32FE312298ABD4F0016FA34 /* KijijiTests */,
-				A32FE31C298ABD4F0016FA34 /* KijijiUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,18 +257,10 @@
 			files = (
 				A32FE30D298ABD4F0016FA34 /* LaunchScreen.storyboard in Resources */,
 				A32FE30A298ABD4F0016FA34 /* Assets.xcassets in Resources */,
-				A32FE308298ABD4E0016FA34 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A32FE311298ABD4F0016FA34 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A32FE31B298ABD4F0016FA34 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,9 +274,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A32FE305298ABD4E0016FA34 /* ViewController.swift in Sources */,
+				A32FE305298ABD4E0016FA34 /* MainViewController.swift in Sources */,
+				A32FE33E298C03130016FA34 /* SearchBarView.swift in Sources */,
+				A3980DE0298D5A1F001DB587 /* ConstraintConsts.swift in Sources */,
+				A32FE333298B4E420016FA34 /* UIView+Preview.swift in Sources */,
+				A32FE33C298B50A90016FA34 /* UIViewController+Bar.swift in Sources */,
+				A32FE335298B4E670016FA34 /* UIViewController+Preview.swift in Sources */,
+				A3980DDE298D595F001DB587 /* CategoryView.swift in Sources */,
+				A3980DEA2991BB95001DB587 /* HomeItemCell.swift in Sources */,
+				A3980DE6298ED6B3001DB587 /* HomeViewController+Delegate.swift in Sources */,
+				A3980DDC298D5783001DB587 /* UIColor+Kijiji.swift in Sources */,
+				A3980DD8298CA375001DB587 /* CategoryItemView.swift in Sources */,
 				A32FE301298ABD4E0016FA34 /* AppDelegate.swift in Sources */,
+				A3980DE2298ED4B4001DB587 /* TextCell.swift in Sources */,
+				A32FE33A298B501E0016FA34 /* MyKijijiViewController.swift in Sources */,
+				A3980DE82991BAE8001DB587 /* HomeItem.swift in Sources */,
+				A3980DE4298ED5D0001DB587 /* HomeViewController+DataSource.swift in Sources */,
+				A3980DDA298CA9E6001DB587 /* UIFont+Traits.swift in Sources */,
 				A32FE303298ABD4E0016FA34 /* SceneDelegate.swift in Sources */,
+				A32FE337298B4FAB0016FA34 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,15 +304,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A32FE319298ABD4F0016FA34 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A32FE324298ABD4F0016FA34 /* KijijiUITestsLaunchTests.swift in Sources */,
-				A32FE322298ABD4F0016FA34 /* KijijiUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -289,22 +312,9 @@
 			target = A32FE2FC298ABD4E0016FA34 /* Kijiji */;
 			targetProxy = A32FE314298ABD4F0016FA34 /* PBXContainerItemProxy */;
 		};
-		A32FE31F298ABD4F0016FA34 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A32FE2FC298ABD4E0016FA34 /* Kijiji */;
-			targetProxy = A32FE31E298ABD4F0016FA34 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A32FE306298ABD4E0016FA34 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A32FE307298ABD4E0016FA34 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A32FE30B298ABD4F0016FA34 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +452,6 @@
 				INFOPLIST_FILE = Kijiji/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +479,6 @@
 				INFOPLIST_FILE = Kijiji/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -526,42 +534,6 @@
 			};
 			name = Release;
 		};
-		A32FE32E298ABD4F0016FA34 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = XA84Z9Z2T7;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bijansoft.KijijiUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Kijiji;
-			};
-			name = Debug;
-		};
-		A32FE32F298ABD4F0016FA34 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = XA84Z9Z2T7;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bijansoft.KijijiUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Kijiji;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -588,15 +560,6 @@
 			buildConfigurations = (
 				A32FE32B298ABD4F0016FA34 /* Debug */,
 				A32FE32C298ABD4F0016FA34 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A32FE32D298ABD4F0016FA34 /* Build configuration list for PBXNativeTarget "KijijiUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A32FE32E298ABD4F0016FA34 /* Debug */,
-				A32FE32F298ABD4F0016FA34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
